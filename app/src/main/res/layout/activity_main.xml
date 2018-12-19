@@ -7,14 +7,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <SurfaceView
-        android:id="@+id/surface_camera"
+    <RelativeLayout
+        android:id="@+id/camera_layout"
         android:layout_width="match_parent"
-        android:layout_height="500dp" />
+        android:layout_height="254dp">
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/tv_result"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="219dp"
         android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tx_coord"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:text="Coordonnates" />
 </LinearLayout>
